@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap");
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-style: italic;
+  
+}
+h1 {
+  color: white;
+}
+
+li {
+  cursor: pointer;
+  list-style: none;
+}
+
+li:hover {
+  color: #2f25e8;
+  border-radius: 0px;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+  margin: 0 20vw;
+  background-color: white;
+  padding: 1em;
+  border-radius: 40px;
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  background-color: #d3bba8;
+}
+
+.container {
+  background-color: white;
+  margin: 2em;
+  padding: 2em;
+  border-radius: 0px;
+}
+
+.description {
+  margin: auto;
+}
+
+.img-container {
+  /* background-image: url("./rest.jpg"); */
+  background-repeat: no-repeat;
+  /* width: 1fr; */
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+}
+img {
+  border-radius: 65px;
+  width: 527px;
+  height: 182px;
+}
+
+.img-desc-container {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-self: center;
+  margin: 2em 0;
+}
